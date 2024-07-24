@@ -58,6 +58,7 @@ class _InventoryPageState extends State<InventoryPage> {
                   );
                 }
 
+                // ignore: use_build_context_synchronously
                 Navigator.pop(context);
               },
               icon: const Icon(Icons.check))
